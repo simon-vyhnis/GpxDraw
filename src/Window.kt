@@ -16,7 +16,7 @@ import javax.swing.JFrame
         val frame = JFrame("GpxDraw")
         frame.contentPane.add(canvas, BorderLayout.CENTER)
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
-        frame.size = Dimension(600, 400)
+        frame.size = Dimension(500, 500)
         frame.setLocationRelativeTo(null)
         frame.isVisible = true
 
